@@ -13,7 +13,6 @@ def decorator_func(myfunc):
         now = datetime.now()
 
         timestamp = datetime.timestamp(now)
-		# print("timestamp =", timestamp)
 
         print("Inside decorator inner func :" + str(now))
         myfunc()
